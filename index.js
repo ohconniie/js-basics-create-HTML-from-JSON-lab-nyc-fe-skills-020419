@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
   // 2 Get data for that movie
   // 3 Replace the template values with the real ones
   
-  const titanicButton = document.getElementbyId('Titantic')
-  const terminatorButton = document.getElementbyId('Terminator 2')
+  const titanicButton = document.getElementById('Titantic')
+  const terminatorButton = document.getElementById('Terminator 2')
   
   function onTitanic() {
     let data = movies.Titantic
     let title = data.title // "Titantic"
-    let titleDiv = document.getElementbyId('title')
+    let titleDiv = document.getElementById('title')
     titleDiv.innerHTML = title
   }
   
