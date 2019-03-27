@@ -25,6 +25,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     let posterImg = document.getElementById('poster')
     posterImg.src = data.poster
+    
+    let audienceScoreDiv = document.getElementById('')
   }
   
   titanicButton.addEventListener('click', onTitanic)
