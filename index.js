@@ -14,13 +14,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
     let titleDiv = document.getElementById('title')
     titleDiv.innerHTML = title
     
-    let director = data.director
     let directorDiv = document.getElementById('director')
-    directorDiv.innerHTML = director
+    directorDiv.innerHTML = data.director
     
-    let genre = data.genre
     let genreDiv = document.getElementById('genre')
-    genreDiv.innerHTML = genre
+    genreDiv.innerHTML = data.genre
+    
+    let filmRatingDiv = document.getElementById('filmRating')
+    filmRatingDiv.innerHTML = data.filmRating
     
   }
   
