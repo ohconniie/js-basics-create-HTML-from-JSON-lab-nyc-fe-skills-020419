@@ -13,9 +13,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
     let title = data.title // "Titantic"
     let titleDiv = document.getElementById('title')
     titleDiv.innerHTML = title
+    
     let director = data.director
-    let directorDiv = dociment.getElementById('director')
+    let directorDiv = document.getElementById('director')
     directorDiv.innerHTML = director
+    
+    let genre = data.genre
+    let genreDiv = document.getElementById('genre')
+    genreDiv.innerHTML = genre
     
   }
   
