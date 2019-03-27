@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
   function onTitanic() {
     let data = movies.Titantic
+    let title = data.title // "Titantic"
+    let titleDiv = document.getElementbyId('title')
+    titleDiv.innerHTML = title
   }
   
   titanticButton.addEventListener('click', onTitanic)
