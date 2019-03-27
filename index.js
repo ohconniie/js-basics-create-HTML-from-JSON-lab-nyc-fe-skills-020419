@@ -33,9 +33,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
     descriptionDiv.innerHTML = data.description
     
     let castDiv = document.getElementById('cast')
+    let startingString = ''
     for (let castMember of data.cast) {
       castDiv.innerHTML = '<li>' + castMember.role + ': ' + castMember.actor + '</li>'
     }
+    castDiv.innerHTML = startingString
   }
   
   titanicButton.addEventListener('click', onTitanic)
