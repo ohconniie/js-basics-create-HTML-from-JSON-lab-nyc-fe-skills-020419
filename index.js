@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
     let title = data.title // "Titantic"
     let titleDiv = document.getElementById('title')
     titleDiv.innerHTML = title
+    let director = data.director
+    let directorDiv = dociment.getElementById('director')
+    directorDiv.innerHTML = director
+    
   }
   
   titanicButton.addEventListener('click', onTitanic)
