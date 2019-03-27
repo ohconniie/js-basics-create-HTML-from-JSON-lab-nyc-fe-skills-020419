@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     titleDiv.innerHTML = title
   }
   
-  titanticButton.addEventListener('click', onTitanic)
+  titanicButton.addEventListener('click', onTitanic)
   terminatorButton.addEventListener('click', () => console.log('yo'))
 });
