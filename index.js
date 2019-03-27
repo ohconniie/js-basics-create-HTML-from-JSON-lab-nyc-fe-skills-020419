@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     let descriptionDiv = document.getElementById('description')
     descriptionDiv.innerHTML = data.description
+    
+    
   }
   
   titanicButton.addEventListener('click', onTitanic)
