@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const terminatorButton = document.getElementById('Terminator 2')
   
   function onTitanic() {
-    let data = movies.Titanic
+    let data = movies.movie
     let title = data.title // "Titantic"
     let titleDiv = document.getElementById('title')
     titleDiv.innerHTML = title
