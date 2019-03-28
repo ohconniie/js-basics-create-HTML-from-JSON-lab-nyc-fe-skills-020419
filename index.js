@@ -40,13 +40,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
     castDiv.innerHTML = startingString
   }
-  
-    let reviewsDiv = document.getElementById('reviews')
-    startingString = ''
-    for (let review of data.reviews) {
-     startingString += '<li>' + review.username + ': ' + review.content + '</li>'
-    }
-    reviewsDiv.innerHTML = startingString
   }
   
   titanicButton.addEventListener('click', onTitanic)
