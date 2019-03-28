@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
     castDiv.innerHTML = startingString
   }
-  }
   
   titanicButton.addEventListener('click', onTitanic)
   terminatorButton.addEventListener('click', () => console.log('yo'))
