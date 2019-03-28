@@ -41,6 +41,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
     castDiv.innerHTML = startingString
   }
   
+    let castDiv = document.getElementById('cast')
+    
+    let startingString = ''
+    for (let castMember of data.cast) {
+     startingString += '<li>' + castMember.role + ': ' + castMember.actor + '</li>'
+    }
+    castDiv.innerHTML = startingString
+  }
+  
   titanicButton.addEventListener('click', onTitanic)
   terminatorButton.addEventListener('click', () => console.log('yo'))
 });
