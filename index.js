@@ -38,8 +38,16 @@ document.addEventListener("DOMContentLoaded", (e) => {
     for (let castMember of data.cast) {
      startingString += '<li>' + castMember.role + ': ' + castMember.actor + '</li>'
     }
+    
     castDiv.innerHTML = startingString
+        let reviewsDiv = document.getElementById('reviews')
+    startingString = ''
+    for (let review of data.reviews) {
+     startingString += '<li>' + review.username + ': ' + review.content + '</li>'
+    }
+    reviewsDiv.innerHTML = startingString
   }
+
   
   titanicButton.addEventListener('click', onTitanic)
   terminatorButton.addEventListener('click', () => console.log('yo'))
