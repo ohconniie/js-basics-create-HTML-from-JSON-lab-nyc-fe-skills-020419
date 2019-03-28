@@ -42,9 +42,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
   }
   
     let reviewsDiv = document.getElementById('reviews')
-    
-    let startingString = ''
-    for (let castMember of data.cast) {
+    startingString = ''
+    for (let review of data.reviews) {
      startingString += '<li>' + review.username + ': ' + review.content + '</li>'
     }
     reviewsDiv.innerHTML = startingString
