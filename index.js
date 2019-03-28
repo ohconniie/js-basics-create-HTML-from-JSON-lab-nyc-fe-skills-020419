@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     for (let castMember of data.cast) {
      startingString += '<li>' + castMember.role + ': ' + castMember.actor + '</li>'
     }
-    
     castDiv.innerHTML = startingString
+    
         let reviewsDiv = document.getElementById('reviews')
     startingString = ''
     for (let review of data.reviews) {
